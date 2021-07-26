@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body{
+    background-color:   hsl(233, 47%, 7%);
+}
+
+.card{
+    top: 25%;
+   width: 900px;
+   height: 50vh;
+   margin: 10% 20% 10% 20%;
+   color: white;   
+   position:relative;
+  
+}
+.card-left { 
+    width:450px;
+    height:100%;
+    background-color: hsl(244, 38%, 16%);
+    float: left;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.heading{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.highlighted-text{
+    color: hsl(277, 64%, 61%);
+}
+.paragraph{
+    font-family: 'Inter' , sans-serif;
+    font-size: 13px;
+    color:hsla(0, 0%, 100%, 0.5);
+    line-height: 15pt;
+}
+
+.card-right{
+    width: 450px;
+    height: 100%;
+    float: right;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
+img{
+    width: 100%;
+    height:100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color : hsl(277, 64%, 61%,0.6)  ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+.centered{
+
+    width: 70%;
+    margin: auto;
+   
+}
+.likes{
+    margin-top: 50px;
+    display: flex;
+}
+.likesmeta{
+  width: 100px;
+  margin: 10px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+.credits{
+    font-family: 'Inter' , sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.creditsmeta{
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.5);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+}
+@media screen and (max-width: 380px){
+    body{   
+    background-color:  hsl(233, 47%, 7%);
+    }
+   .card{
+       width:300px;
+       height:70vh;
+       margin: 10% 45% 19% 7%;
+       border-top-left-radius: 10px;
+       border-top-right-radius: 10px;
+       border-bottom-left-radius: 0px;
+       border-bottom-right-radius: 0px;
+       height:90%;
+   }
+   .card-right{
+       width: 100%;
+       height:40%;
+       position: absolute;
+       top:0px;
+       border-top-left-radius: 10px;
+       border-top-right-radius: 10px;
+       border-bottom-left-radius: 0px;
+       border-bottom-right-radius: 0px;
+   }
+   .card-left{
+    width: 100%;
+    position: absolute;
+    top:229px;   
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.overlay{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.heading{
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    text-align: center;
+    font-size: 13px;
+}
+.likes{
+display: block;
+
+}
+.likesmeta{
+    margin-left: auto;
+margin-right: auto;
+margin-bottom: 35px;
+text-align: center;
+}
+}
